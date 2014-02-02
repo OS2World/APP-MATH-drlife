@@ -1,0 +1,173 @@
+; Externally defined neighborhoods. A CRLF is required after the last entry in the file.   
+; Neighborhoods must have the same number of rows and columns. 
+; A number > 0 in a data line means that the cell will be used in the count of neighbors, and weighted
+; with the value 1-9 given. 
+;
+; do not change M8
+[TEMPLATE.M8]
+TITLE = Moore radius 1
+nbhData.1 = 111
+nbhData.2 = 101
+nbhData.3 = 111
+
+[TEMPLATE.M9]
+TITLE = Moore radius 1 + center cell
+nbhData.1 = 111
+nbhData.2 = 111
+nbhData.3 = 111
+
+[TEMPLATE.M24]
+TITLE = Moore radius 2
+nbhData.1 = 11111
+nbhData.2 = 11111
+nbhData.3 = 11011
+nbhData.4 = 11111
+nbhData.5 = 11111
+
+[TEMPLATE.M25]
+TITLE = Moore radius 2 + center cell
+nbhData.1 = 11111
+nbhData.2 = 11111
+nbhData.3 = 11111
+nbhData.4 = 11111
+nbhData.5 = 11111
+
+[TEMPLATE.M48]
+TITLE = Moore radius 3
+nbhData.1 = 1111111
+nbhData.2 = 1111111
+nbhData.3 = 1111111
+nbhData.4 = 1110111
+nbhData.5 = 1111111
+nbhData.6 = 1111111
+nbhData.7 = 1111111
+
+[TEMPLATE.M80]
+TITLE = Moore radius 4
+nbhData.1 = 111111111
+nbhData.2 = 111111111
+nbhData.3 = 111111111
+nbhData.4 = 111111111
+nbhData.5 = 111101111
+nbhData.6 = 111111111
+nbhData.7 = 111111111
+nbhData.8 = 111111111
+nbhData.9 = 111111111
+
+[TEMPLATE.M120]
+TITLE = Moore radius 5
+nbhData.1 = 11111111111
+nbhData.2 = 11111111111
+nbhData.3 = 11111111111
+nbhData.4 = 11111111111
+nbhData.5 = 11111111111
+nbhData.6 = 11111011111
+nbhData.7 = 11111111111
+nbhData.8 = 11111111111
+nbhData.9 = 11111111111
+nbhData.10 = 11111111111
+nbhData.11 = 11111111111
+
+; do not change V4
+[TEMPLATE.V4]
+TITLE = von Neumann radius 1
+nbhData.1 = 010
+nbhData.2 = 101
+nbhData.3 = 010
+
+[TEMPLATE.V5]
+TITLE = von Neumann radius 1 + center cell
+nbhData.1 = 010
+nbhData.2 = 111
+nbhData.3 = 010
+
+[TEMPLATE.V12]
+TITLE = von Neumann radius 2
+nbhData.1 = 00100
+nbhData.2 = 01110
+nbhData.3 = 11011
+nbhData.4 = 01110
+nbhData.5 = 00100
+
+[TEMPLATE.V24]
+TITLE = von Neumann radius 3
+nbhData.1 = 0001000
+nbhData.2 = 0011100
+nbhData.3 = 0111110
+nbhData.4 = 1110111
+nbhData.5 = 0111110
+nbhData.6 = 0011100
+nbhData.7 = 0001000
+
+[TEMPLATE.V40]
+TITLE = von Neumann radius 4
+nbhData.1 = 000010000
+nbhData.2 = 000111000
+nbhData.3 = 001111100
+nbhData.4 = 011111110
+nbhData.5 = 111101111
+nbhData.6 = 011111110
+nbhData.7 = 001111100
+nbhData.8 = 000111000
+nbhData.9 = 000010000
+
+[TEMPLATE.V60]
+TITLE = von Neumann radius 5
+nbhData.1 =  00000100000
+nbhData.2 =  00001110000
+nbhData.3 =  00011111000
+nbhData.4 =  00111111100
+nbhData.5 =  01111111110
+nbhData.6 =  11111011111
+nbhData.7 =  01111111110
+nbhData.8 =  00111111100
+nbhData.9 =  00011111000
+nbhData.10 = 00001110000
+nbhData.11 = 00000100000
+
+[TEMPLATE.X]
+TITLE = Self Replicating Loops
+
+[TEMPLATE.P]
+TITLE = Margolus Partitioning 
+nbhData.1 = 11
+nbhData.2 = 11
+
+[TEMPLATE.B2]
+TITLE = Binary radius 1  
+nbhData.1 = 101
+
+[TEMPLATE.B4]
+TITLE = Binary radius 2 
+nbhData.1 = 11011
+
+; user defined neighborhoods. Names should be TEMPLATE.U1 thru TEMPLATE.U99
+[TEMPLATE.U6]
+TITLE = user - 9 cells (Weighted 110100110) 
+nbhData.1 = 110
+nbhData.2 = 100
+nbhData.3 = 110
+
+[TEMPLATE.U13]
+TITLE = user - 25 cells (Weighted 0101001010010100101001010) 
+nbhData.1 = 01010
+nbhData.2 = 01010
+nbhData.3 = 01010
+nbhData.4 = 01010
+nbhData.5 = 01010
+
+[TEMPLATE.U24]
+TITLE = user - 25 cells (Weighted 1121111411240421141111211) 
+nbhData.1 = 11211
+nbhData.2 = 11411
+nbhData.3 = 24042
+nbhData.4 = 11411
+nbhData.5 = 11211
+
+[TEMPLATE.U9]
+TITLE = user - 9 cells (Weighted 121202121)
+nbhData.1 = 121
+nbhData.2 = 202
+nbhData.3 = 121
+
+; end of drlife.nbh. keep this comment

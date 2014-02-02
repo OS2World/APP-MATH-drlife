@@ -1,0 +1,49 @@
+; embedded patterns
+; EMBED.xx is CASE SENSITIVE, and must be a # symbol followed by any character.
+; embed patterns must be at least 2 characters
+; all data.x entries must be the same length within the embed
+[EMBED.#G]
+title =  #G glider moving SE: 4c x 3r
+data.1 = 0100
+data.2 = 0010
+data.3 = 1110
+
+[EMBED.#L]
+title = #L Block: 2c x 2r
+data.1 = 11
+data.2 = 11
+
+[EMBED.#B]
+title = #B Blinker: 3c x 3r
+data.1 = 111
+data.2 = 000
+data.3 = 000
+
+[EMBED.#H]
+title = #H Herschel: 3c x 4r
+data.1 = 100
+data.2 = 111
+data.3 = 101
+data.4 = 001
+
+[EMBED.#E]
+title = #E BeeHive: 4c x 3r
+data.1 = 0110
+data.2 = 1001
+data.3 = 0110
+
+[EMBED.#T]
+title = #T Eater: 4c x 4r
+data.1 = 1100
+data.2 = 1010
+data.3 = 0010
+data.4 = 0011
+
+[EMBED.#S]
+title = #S Spaceship moving East: 5c x 4r
+data.1 = 00010
+data.2 = 00001
+data.3 = 10001
+data.4 = 01111
+
+;end of drlife.emb. keep this comment

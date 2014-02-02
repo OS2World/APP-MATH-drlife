@@ -1,0 +1,108 @@
+Sites to visit for patterns:
+----------------------------
+http://www.mirekw.com/ca/ca_gallery.html
+http://www.mirekw.com/ca/patt_libs.html
+http://entropymine.com/jason/life/
+http://home.interserv.com/~mniemiec/
+ 
+Links:
+-----------
+Alife programs & docs http://zooland.alife.org/
+http://www.answers.com/topic/cellular-automaton
+MCell - http://www.mirekw.com/ca/ca_links.html
+http://pentadecathlon.com/index.shtml
+http://cell-auto.com/
+http://gameoflife-news.blogspot.com/
+http://www.ericweisstein.com/encyclopedias/life/
+http://en.wikipedia.org/wiki/Cellular_automata
+Self Replication - http://www.cs.bgu.ac.il/~sipper/selfrep/
+Books:
+-----------
+
+
+
+
+Definitions:
+-----------
+checkpoint: the saved state of a C.A. at a particular generation
+
+----------------------------------------
+C.A.uses:
+
+Graphics:
+http://madeira.cc.hokudai.ac.jp/RD/takai/automa.html
+http://www.iutsd.uhp-nancy.fr/recherche/sgobron/Core/Publications/1999_abstract_SGobron_NChiba_JVCA.pdf
+
+Image processing:
+http://www.nd.edu/~mtns/papers/17761_4.pdf
+
+Modeling of physical systems:
+http://www.cambridge.org/uk/catalogue/catalogue.asp?isbn=0521673453
+http://www.library.tudelft.nl/delftdiss/pdf/2004/ae_abdalla_20041213.pdf
+
+Music:
+http://www-106.ibm.com/developerworks/java/library/j-camusic/
+http://www.automatous-monk.com/
+
+Cities and urban simulations:
+http://www.geosimulation.org/geosim/cellular_automata.htm
+http://www.geocomputation.org/1998/89/gc_89.htm
+
+Cryptography:
+http://portal.acm.org/citation.cfm?id=191580
+
+Lots of examples of CA uses:
+http://www.beginners.co.uk/internet/dir/Computers/Artificial_Life/Cellular_Automata/
+http://search.looksmart.com/p/browse/us1/us317914/us53774/us908887/us10018665/us1118295/
+http://directory.google.com/Top/Computers/Artificial_Life/Cellular_Automata/
+http://www.mat.ucsb.edu/~g.legrady/academic/courses/04s102/ca.html
+
+Interesting:
+http://www.ifs.tuwien.ac.at/~aschatt/info/ca/ca.html
+http://www.amazon.com/exec/obidos/tg/detail/-/0387946209?v=glance
+
+------------------
+LAMBDA parameter definition from:
+THE EDGE of CHAOS from: http://math.hws.edu/xJava/CA/EdgeOfChaos.html
+
+ ... some CA's display interesting, complex, almost lifelike behavior. Langton said that these CA's
+are near the border between order and chaos. If they were more ordered, they would be too predictable
+to be interesting; if they were less ordered, they would be too chaotic.
+
+Langton defined a simple number that can be used to help predict whether a given CA will fall
+in the ordered realm, in the chaotic realm, or near the boundary, on the "edge of chaos." 
+The number can be computed from the rules of the CA. It is simply the fraction of rules in which 
+the new state of the cell is living. (The rule in which a cell and all its neigbors are dead is 
+not counted, since Langton assumed that the new state in this rule is always death.) 
+He called this parameter "lambda."
+
+The lambda parameter of a CA is a number between 0 and 1. If lambda is 0, then all cells die 
+immediately, since every rule leads to death. If lambda is 1, then any cell that has at least 
+one living neighbor will stay alive in the next generation and, in fact, forever. 
+More generally, values of lambda close to zero give CA's in the ordered realm. 
+Values close to 1 give CA's in the chaotic realm. The edge of chaos is somewhere in between.
+
+Unfortunately, we can't simply say that there is a value of lambda that represents the edge of chaos.
+It's more complicated than that. Here is what Langton found: Suppose you start with a CA 
+with lambda equal to zero, where all rules lead to death. Now, suppose you randomly modify rules 
+one-by-one so that the new rules lead to life instead of death. This causes the lambda value to 
+increase. As you do this, you get a sequence of CA's with lambda values increasing from zero to one. 
+At the beginning, the CA's are highly ordered; at the end they are chaotic. Somewhere in between, 
+at some critical value of lambda, there will be a transition from order to chaos. 
+It is near this transition that the most interesting CA's tend to be found, 
+the ones that have the most complex behavior.
+
+As I've said, though, the critical value for lambda is not a universal constant; 
+it depends on the "path" chosen through the space of CA's. To apply Langton's ideas in the search 
+for interesting CA's, you have to construct such a path and wander along it, looking for the 
+transition between order and chaos. The EdgeOfChaosCA, which is described on the next page let's 
+you do just that.
+
+By the way, does this have anything at all to do with the origin of actual life? 
+Some people think so. They claim that evolution tends to push systems towards the edge of chaos, 
+where complex, interesting behaviors such as life can occur. If you are intrigued by this idea, 
+see the bibliography page. You'll find some suggested readings on cellular automata, complexity, 
+evolution, and the edge of chaos.
+
+
+

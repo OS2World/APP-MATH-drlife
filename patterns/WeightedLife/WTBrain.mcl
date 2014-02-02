@@ -1,0 +1,9 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW1,NN1,NE1,WW1,ME0,EE1,SW1,SS1,SE1,HI3,RB2
+#BOARD 100x100
+#SPEED 50
+#WRAP 1
+#D Weighted Brian's Brain
+#L A$A
+

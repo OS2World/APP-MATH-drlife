@@ -1,0 +1,10 @@
+(v1.1)- Cellular Automata Animator. FREEWARE
+aka - DrLife is a 1d and 2d cellular automata
+engine with a GUI supplied by DrDialog
+Patterns as large as 1000x1000 can be used.
+Executing C.A's can be paused, single stepped
+or slowed down in order to view detailed
+behavior. C.A. patterns in multiple file
+formats can be used: Life1.05, RLE, MCell,
+or plain ascii format are supported.
+Author:Stan Pokorney pokorney@insightbb.com

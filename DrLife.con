@@ -1,0 +1,27 @@
+; DrLife.con has the conditions to cause a rule change.
+; Variables that can be used to trigger a rule change are:
+;      gen - the number of generations
+;      pop - the current cell population
+;      den - alive cell density as a % of total cells
+;      gro - numerical growth from previous generation
+;
+[CONDITION.1]
+; switch when density is greater than .25, switch after density falls to less than .15, repeat
+switch = IF DEN > .25 THEN CALL gc 2 # IF DEN < .15 THEN CALL gc 1 
+
+[CONDITION.2]
+; Switch when pop > 10. Switch again when pop < 5 
+switch = IF pop > 10 THEN CALL gc 2 # IF pop < 5 THEN CALL gc 1 
+
+[CONDITION.3]
+; switch when density reaches 75% and test again for den >= 75%
+switch = IF DEN >= 75 THEN CALL gc 1 
+
+[CONDITION.6]
+; switch every 10 generations
+switch = IF  gen // 10 = 0 THEN CALL gc 1 
+
+[CONDITION.5]
+; switch rules every time pop is an exact multiple of 10
+switch = IF pop // 10 = 0 THEN CALL gc 1 
+

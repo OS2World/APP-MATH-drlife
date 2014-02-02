@@ -1,0 +1,289 @@
+; all rule section numbers from 1 thru the last rule must exist.
+; and be in numerical order
+[RULE.1]
+TITLE = Xtasy
+ruleValue = S1456/B2356/16
+neighborhoodType = M8
+
+[RULE.2]
+TITLE = Life (Chaotic) 
+ruleValue = S23/B3/2
+neighborhoodType = M8
+
+[RULE.3]
+TITLE = HighLife (Chaotic)
+ruleValue = S23/B36/2
+neighborhoodType = M8
+
+[RULE.4]
+TITLE =  Day & Night (Stable)
+ruleValue = S34678/B3678/2
+neighborhoodType = M8
+
+[RULE.5]
+TITLE =  Fredkin's 4 neighbor rule (quadruples)
+ruleValue = S13/B13/2
+neighborhoodType = V4
+
+[RULE.6]
+TITLE = Assimilation (Stable)
+ruleValue = S4567/B345/2
+neighborhoodType = M8
+
+[RULE.7]
+TITLE = Coagulations (Exploding)
+ruleValue = S235678/B378/2
+neighborhoodType = M8
+
+[RULE.8]
+TITLE = Flakes, Life without Death (Expanding)
+ruleValue = S012345678/B3/3
+neighborhoodType = M8
+
+[RULE.9]
+TITLE = Gnarl (Exploding)
+ruleValue = S1/B1/2
+neighborhoodType = M8
+
+[RULE.10]
+TITLE = 2X2 (Chaotic)
+ruleValue = S125/B36/2
+neighborhoodType = M8
+
+[RULE.11]
+TITLE = Maze (Exploding)
+ruleValue = S12345/B3/3
+neighborhoodType = M8
+
+[RULE.12]
+TITLE = Replicator (Exploding)
+ruleValue = S1357/B1357/2
+neighborhoodType = M8
+
+[RULE.13]
+TITLE = Walled Cities (Stable)
+ruleValue = S2345/B45678/2
+neighborhoodType = M8
+
+[RULE.14]
+TITLE = Amoeba (Chaotic)
+ruleValue = S1358/B357/2
+neighborhoodType = M8
+
+[RULE.15]
+TITLE = Coral (Exploding)
+ruleValue = S45678/B3/3
+neighborhoodType = M8
+
+[RULE.16]
+TITLE = InverseLife (Chaotic)
+ruleValue = S34678/B0123478/2
+neighborhoodType = M8
+
+[RULE.17]
+TITLE = Binary Rule #110
+ruleValue = D110/2
+neighborhoodType = B2
+
+[RULE.18]
+TITLE = Binary Rule # 30
+ruleValue = D30/2
+neighborhoodType = B2
+
+[RULE.19]
+TITLE = Binary Rule # 254
+ruleValue = D254/2
+neighborhoodType = B2
+
+[RULE.20]
+TITLE = Binary Rule # 90
+ruleValue = D90/2
+neighborhoodType = B2
+
+[RULE.21]
+TITLE = 34 Life (Exploding)
+ruleValue = S34/B34/2
+neighborhoodType = M8
+
+[RULE.22]
+TITLE =  Fredkin's 8 neighbor rule
+ruleValue = S13/B13/2
+neighborhoodType = M8
+
+[RULE.23]
+TITLE =  Fredkin's PARITY rule (fivefold)
+ruleValue = S135/B135/2
+neighborhoodType = V4
+
+[RULE.24]
+TITLE =  Seeds - S/B2/2
+ruleValue = S/B2/2
+neighborhoodType = M8
+
+[RULE.25]
+TITLE =  Brian's Brain S/B2/3
+ruleValue = S/B2/3
+neighborhoodType = M8
+
+[RULE.26]
+TITLE =  Serviettes - fabric like
+ruleValue = S/B234/2
+neighborhoodType = M8
+
+[RULE.27]
+TITLE = Life w/24 neighbors  (Chaotic) 
+ruleValue = S12/B2/2
+neighborhoodType = M24
+
+[RULE.28]
+TITLE = HPP (Hardy/Pazzis/Pomeau) lattice gas model
+ruleValue = MS,D0;8;4;12;2;10;9;14;1;6;5;13;3;11;7;15  
+neighborhoodType = P
+
+[RULE.29]
+TITLE = Billiard Ball 
+ruleValue = MS,D0;8;4;3;2;5;9;7;1;6;10;11;12;13;14;15
+neighborhoodType = P
+
+[RULE.30]
+TITLE = TRON 
+ruleValue = MS,D15;1;2;3;4;5;6;7;8;9;10;11;12;13;14;0
+neighborhoodType = P
+ 
+[RULE.31]
+TITLE = Bounce_Gas Tim Tyler's uniform gas
+ruleValue = MS,D0;8;4;3;2;5;9;14;1;6;10;13;12;11;7;15
+neighborhoodType = P
+
+[RULE.32]
+TITLE = Critters 
+ruleValue = MS,D15;14;13;3;11;5;6;1;7;9;10;2;12;4;8;0
+neighborhoodType = P
+
+[RULE.33]
+TITLE = Rotations 
+ruleValue = MS,D0;2;8;12;1;10;9;11;4;6;5;14;3;7;13;15
+neighborhoodType = P
+
+[RULE.34]
+TITLE = Langton Self Replicating Loop 
+ruleValue = X001/8
+neighborhoodType = X
+
+[RULE.35]
+TITLE = Byl's Self Replicating Loop 
+ruleValue = X002/6
+neighborhoodType = X
+
+[RULE.36]
+TITLE = Rotations II 
+ruleValue = MS,D0;2;8;12;1;10;9;13;4;6;5;7;3;14;11;15
+neighborhoodType = P
+
+[RULE.37]
+TITLE = StringThing 
+ruleValue = MS,D0;1;2;12;4;10;9;7;8;6;5;11;3;13;14;15
+neighborhoodType = P
+
+[RULE.38]
+TITLE = StringThing II 
+ruleValue = MS,D0;1;2;12;4;10;6;7;8;9;5;11;3;13;14;15
+neighborhoodType = P
+
+[RULE.39]
+TITLE = Rotations IV 
+ruleValue = MS,D0;4;1;12;8;10;6;14;2;9;5;13;3;11;7;15
+neighborhoodType = P
+
+[RULE.40]
+TITLE = SwapOndiag 
+ruleValue = MS,D0;8;4;12;2;10;6;14;1;9;5;13;3;11;7;15
+neighborhoodType = P
+
+[RULE.41]
+TITLE = Rotations III 
+ruleValue = MS,D0;4;1;10;8;3;9;11;2;6;12;14;5;7;13;15
+neighborhoodType = P
+ 
+[RULE.42]
+TITLE = Bounce_Gas II
+ruleValue = MS,D0;8;4;12;2;10;9;7;1;6;5;11;3;13;14;15
+neighborhoodType = P
+
+[RULE.43]
+TITLE = 1 of 8 rule
+ruleValue = S123456789/B1/2
+neighborhoodType = M9
+
+[RULE.44]
+TITLE = Majority rule
+ruleValue = S56789/B56789/2
+neighborhoodType = M9
+
+[RULE.45]
+TITLE = Chou/Reggia Loop 1
+ruleValue = X003/8
+neighborhoodType = X
+
+[RULE.46]
+TITLE = Chou/Reggia Loop 2
+ruleValue = X004/8
+neighborhoodType = X
+
+[RULE.47]
+TITLE = Evo Loop
+ruleValue = X005/9
+neighborhoodType = X
+
+[RULE.48]
+TITLE = Langton Loop with Structural Dissoluton
+ruleValue = X006/9
+neighborhoodType = X
+
+[RULE.49]
+TITLE = Perfect Spiral
+ruleValue = S2/B234/5
+neighborhoodType = M8
+
+[RULE.50]
+TITLE = Cooties
+ruleValue = S23/B2/8
+neighborhoodType = M8
+
+[RULE.51]
+TITLE = Belzhab Sediment
+ruleValue = S145678/B23/8
+neighborhoodType = M8
+
+
+[RULE.52]
+TITLE = Burst
+ruleValue = S0235678/B3468/9
+neighborhoodType = M8
+
+[RULE.53]
+TITLE = Flaming Starbows
+ruleValue = S347/B23/8
+neighborhoodType = M8
+
+[RULE.54]
+TITLE = 34 state life
+ruleValue = S23/B3/34
+neighborhoodType = M8
+
+[RULE.55]
+TITLE = 12 state life
+ruleValue = S23/B3/12
+neighborhoodType = M8
+
+[RULE.56]
+TITLE = 313 cyclic CA
+ruleValue = R1/T3/C3/NM
+neighborhoodType = M8
+
+[RULE.57]
+TITLE = Binary Rule #45
+ruleValue = D45/2
+neighborhoodType = B2
+
+; end of drlife.rul. keep this comment

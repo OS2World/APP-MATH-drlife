@@ -1,0 +1,40 @@
+                          Upload Information Template for Hobbes.nmsu.edu
+                          ===============================================
+
+        Archive Filename: drlife_1_1.zip
+       Short Description: Cellular Automata Animator v1.1
+        Long Description: Also known as DrLife, this is a 1d and 2d cellular automata engine.
+                          New in this version is support for Object Rexx (DrlifeO.exe).  
+                          Patterns for C.A.'s can be in Life1.05, run length encoded (RLE), or ascii formats.
+                          Patterns can be modified before being run, and can be selected from 
+                          a file, a pattern stored as a string of 0 & 1's, or a pattern entered from the keyboard.
+			  While running the pattern, you can pause and single-step the execution, or stop at a certain
+			  generation. Patterns larger than 62,000 cells can be viewed in sections which are selectable
+                          by marquee mouse marking the pattern graphic.
+                          All Life-like rules, Binary 1d rules, and Margolus rules are supported. 
+			  Cell neighborhoods of 8, 9, 4 and 5 cells are built into the program, and other
+			  cell neighborhoods can be defined in a config file.
+                          A number of public patterns are included.
+                          Source code for use with DrDialog is included.
+
+      Proposed directory
+           for placement: /pub/os2/apps/math
+
+               Your name: Stan Pokorney
+           Email address: pokorney@insightbb.com
+    Program contact name: (same)
+   Program contact email: (same)
+             Program URL: (none)
+
+      Would you like the
+   contact email address
+    included in listings? yes
+
+Operating System/Version: OS/2 version 4.5
+ Additional requirements: REXX or ORexx, RexxLib, RexxIni, RxGdUtil, DrDialog-Controls (all included)
+
+                Replaces: drlife_1_0.zip
+
+
+
+

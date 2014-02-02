@@ -1,0 +1,9 @@
+#HighOrder
+#GAME SECOND ORDER
+#RULE 23/3/2
+#BOARD 24x24
+#WRAP 1
+#D 2nd order life
+#D Blinker 6 cells on for 2 cycles, off for one cycle
+#L .AA$A..A$.AA
+

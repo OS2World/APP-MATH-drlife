@@ -1,0 +1,9 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW1,NN1,NE1,WW1,ME0,EE1,SW1,SS1,SE1,HI0,RS2,RS3,RB3
+#BOARD 24x24
+#SPEED 50
+#WRAP 1
+#D Weighted life blinker
+#L 3A
+
